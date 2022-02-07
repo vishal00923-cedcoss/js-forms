@@ -1,0 +1,36 @@
+.container {
+	width: 60%;
+	max-width: 920px;
+	margin: 12rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-data {
+	width: 242px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 8px 0;
+}
+
+.user-data input {
+	padding: 6px;
+}
+
+#btn {
+	width: 120px;
+	margin: 48px 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#output {
+	width: 242px;
+}
